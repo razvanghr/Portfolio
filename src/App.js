@@ -1,17 +1,12 @@
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import gif from "./assets/astro_gif.gif";
+import gif2 from "./assets/computer_gif.gif";
 
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Main />
-      <AboutMe />
-      <Projects />
-      <Footer />
+      <h1>SMECHER DE MIC MA FACUT MAMA</h1>
+      <img src={gif} className="gif"></img>
+      <img src={gif2} className="gif2"></img>
     </div>
   );
 }
